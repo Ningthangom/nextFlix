@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from "./banner.module.css";
-
+import Image from 'next/image'
 
 interface Props{
   title: string;
@@ -28,20 +28,23 @@ const Banner: React.FC<Props> = ({
             {" "}
             <button onClick={handlePlay} className={styles.btnWithIcon}>
               {" "}
+              <Image
+                src="/static/playarrow.svg"
+                alt=""
+                width="32px"
+                height="32px"
+              />
               <p className={styles.playText}>Play</p>{" "}
             </button>{" "}
           </div>
         </div>
       </div>
       <div
-      className={styles.bannerImg}
-   style={{
+        className={styles.bannerImg}
+        style={{
           backgroundImage: `url(${imgUrl})`,
-          width: "100vw",
-          height: "100vh",
-          backgroundSize: "cover",
-          backgroundPosition: "50% 50%",
-        }} ></div>
+        }}
+      ></div>
     </div>
   );
 };
