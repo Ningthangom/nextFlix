@@ -8,6 +8,7 @@ import styles from "../styles/Home.module.css";
 
 import { getVideos } from "../lib/videos";
 import { MarvelVideos } from "../lib/marvelVideos";
+import {magic} from '../lib/magic-client'
 
 /* 
 export async function getServerSideProps() {
@@ -36,7 +37,7 @@ const Home: NextPage<Props> = ({
 }: Props) => {
   const Videos = getVideos();
     const marvels = MarvelVideos();
-  console.log("local env: ", Videos);
+  console.log({magic});
   return (
     <div className={styles.container}>
       <Head>
