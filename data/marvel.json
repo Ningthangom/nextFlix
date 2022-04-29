@@ -1,0 +1,848 @@
+{
+  "items": [
+    {
+      "kind": "youtube#searchResult",
+      "etag": "fssDNi2zL8AFvhQuwVgVlh6advY",
+      "id": {
+        "kind": "youtube#channel",
+        "channelId": "UCvC4D8onUfXzvjTOM-dBfEA"
+      },
+      "snippet": {
+        "publishedAt": "2005-06-16T12:09:27Z",
+        "channelId": "UCvC4D8onUfXzvjTOM-dBfEA",
+        "title": "Marvel Entertainment",
+        "description": "Marvel Entertainment, LLC, a wholly-owned subsidiary of The Walt Disney Company, is one of the world's most prominent ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/fGvQjp1vAT1R4bAKTFLaSbdsfdYFDwAzVjeRVQeikH22bvHWsGULZdwIkpZXktcXZc5gFJuA3w=s88-c-k-c0xffffffff-no-rj-mo"
+          },
+          "medium": {
+            "url": "https://yt3.ggpht.com/fGvQjp1vAT1R4bAKTFLaSbdsfdYFDwAzVjeRVQeikH22bvHWsGULZdwIkpZXktcXZc5gFJuA3w=s240-c-k-c0xffffffff-no-rj-mo"
+          },
+          "high": {
+            "url": "https://yt3.ggpht.com/fGvQjp1vAT1R4bAKTFLaSbdsfdYFDwAzVjeRVQeikH22bvHWsGULZdwIkpZXktcXZc5gFJuA3w=s800-c-k-c0xffffffff-no-rj-mo"
+          }
+        },
+        "channelTitle": "Marvel Entertainment",
+        "liveBroadcastContent": "none",
+        "publishTime": "2005-06-16T12:09:27Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "0_OmhH0imIkDNBP7Knj8oIp6gpg",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "tgB1wUcmbbw"
+      },
+      "snippet": {
+        "publishedAt": "2022-04-18T14:00:01Z",
+        "channelId": "UCvC4D8onUfXzvjTOM-dBfEA",
+        "title": "Marvel Studios&#39; Thor: Love and Thunder | Official Teaser",
+        "description": "Here it is. ❤️ + ⚡ Marvel Studios' Thor: Love and Thunder arrives only in theaters July 8. The film finds Thor (Chris Hemsworth) ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/tgB1wUcmbbw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/tgB1wUcmbbw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/tgB1wUcmbbw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Marvel Entertainment",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-04-18T14:00:01Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "_CsPbzrAn8aMQHPVD2RmW-GWBD4",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "064DIV0d890"
+      },
+      "snippet": {
+        "publishedAt": "2022-04-22T19:00:01Z",
+        "channelId": "UCvC4D8onUfXzvjTOM-dBfEA",
+        "title": "Marvel Studios&#39; Doctor Strange in the Multiverse of Madness | A Mind-Bending Vision Featurette",
+        "description": "Explore the mind-bending side of the Multiverse in this brand new featurette for Marvel Studios' Doctor Strange in the Multiverse of ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/064DIV0d890/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/064DIV0d890/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/064DIV0d890/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Marvel Entertainment",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-04-22T19:00:01Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "R4QZ3GlU783GB5-C6DyoxFlIazs",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "m9EX0f6V11Y"
+      },
+      "snippet": {
+        "publishedAt": "2022-03-15T14:00:03Z",
+        "channelId": "UCvC4D8onUfXzvjTOM-dBfEA",
+        "title": "Marvel Studios’ Ms. Marvel | Official Trailer | Disney+",
+        "description": "The future is in her hands. Ms. Marvel, an Original series from Marvel Studios, starts streaming June 8 on Disney+. ▻ Watch ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/m9EX0f6V11Y/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/m9EX0f6V11Y/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/m9EX0f6V11Y/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Marvel Entertainment",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-03-15T14:00:03Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "KDik43hVunmA9GAlKxQB5nQpwr8",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "aWzlQ2N6qqg"
+      },
+      "snippet": {
+        "publishedAt": "2022-02-13T23:12:44Z",
+        "channelId": "UCvC4D8onUfXzvjTOM-dBfEA",
+        "title": "Marvel Studios&#39; Doctor Strange in the Multiverse of Madness | Official Trailer",
+        "description": "Enter a new dimension of Strange. Watch the official trailer for Marvel Studios' Doctor Strange in the Multiverse of Madness.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/aWzlQ2N6qqg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/aWzlQ2N6qqg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/aWzlQ2N6qqg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Marvel Entertainment",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-02-13T23:12:44Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "1vf9W9v8fgr8GVN8sVnYToPy7Cc",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "RDZ2Z6g3RGg"
+      },
+      "snippet": {
+        "publishedAt": "2022-04-25T01:49:46Z",
+        "channelId": "UCDiFRMQWpcp8_KD4vwIVicw",
+        "title": "Guardians of the Galaxy 3 Marvel Announcement Breakdown and Trailer Easter Eggs",
+        "description": "Guardians of the Galaxy 3 Marvel Announcement. Guardians of the Galaxy 3 Trailer Thor Love and Thunder Easter Eggs.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/RDZ2Z6g3RGg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/RDZ2Z6g3RGg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/RDZ2Z6g3RGg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Emergency Awesome",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-04-25T01:49:46Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "5IJzJ-MwDrZ0yf8XMfUGdRSa3Sk",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "EVnGc1WuoGs"
+      },
+      "snippet": {
+        "publishedAt": "2022-04-22T13:00:16Z",
+        "channelId": "UCvC4D8onUfXzvjTOM-dBfEA",
+        "title": "FORTNITE X MARVEL: ZERO WAR #1 Trailer | Marvel Comics",
+        "description": "Destination: R̶e̶a̶l̶i̶t̶y̶ ̶6̶1̶6̶ Destination: Reset Worlds collide as the hunt for the Zero Shard begins in 'Fortnite x ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/EVnGc1WuoGs/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/EVnGc1WuoGs/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/EVnGc1WuoGs/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Marvel Entertainment",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-04-22T13:00:16Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "9cnKgQo4kXC3Q6OP-z32nZagrdg",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "hBTEJ3fentw"
+      },
+      "snippet": {
+        "publishedAt": "2022-04-18T14:28:52Z",
+        "channelId": "UCM-jlCRlsC59Pq5oXa61CzA",
+        "title": "Marvel Studios&#39; Thor: Love and Thunder | Official Teaser",
+        "description": "Marvel Studios' Thor: Love and Thunder arrives only in theaters July 8. ❤️ +.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/hBTEJ3fentw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/hBTEJ3fentw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/hBTEJ3fentw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Marvel UK",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-04-18T14:28:52Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "J0BhKuzZnfYr8PCF3adwpmexMhg",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "DlzCDUzNTHo"
+      },
+      "snippet": {
+        "publishedAt": "2022-04-22T20:31:07Z",
+        "channelId": "UCi8e0iOVk1fEOogdfu4YgfA",
+        "title": "Doctor Strange in the Multiverse of Madness Featurette - A Mind-Bending Vision (2022)",
+        "description": "Check out a Doctor Strange in the Multiverse of Madness Official Featurette starring Elizabeth Olsen! Let us know what you think ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/DlzCDUzNTHo/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/DlzCDUzNTHo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/DlzCDUzNTHo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Movieclips Trailers",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-04-22T20:31:07Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "J_2hDwWxre4zPlQQiI1rhYfmkLM",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "fH3gc-kr8Rc"
+      },
+      "snippet": {
+        "publishedAt": "2022-03-15T14:12:42Z",
+        "channelId": "UC8LEXZO4hjzVk6wO3G9pJyQ",
+        "title": "Ms. Marvel | Tráiler Oficial Subtitulado | Disney+",
+        "description": "Cómo nos sentimos? Cósmicos #MsMarvel, una Serie Original de Marvel Studios, estreno 8 de junio en #DisneyPlus.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/fH3gc-kr8Rc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/fH3gc-kr8Rc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/fH3gc-kr8Rc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Marvel Latinoamérica Oficial",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-03-15T14:12:42Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "lXP__-nGX38rhNXI1DdULC6aR4Q",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "idU-bx2x1a8"
+      },
+      "snippet": {
+        "publishedAt": "2022-02-13T23:35:18Z",
+        "channelId": "UCItRs-h8YU1wRRfP637614w",
+        "title": "Doutor Estranho no Multiverso da Loucura | Marvel Studios | Trailer Oficial Legendado",
+        "description": "Entre em uma nova dimensão. Assista ao novo trailer de #DoutorEstranho no Multiverso da Loucura da Marvel Studios. Em 5 de ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/idU-bx2x1a8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/idU-bx2x1a8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/idU-bx2x1a8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Marvel Brasil",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-02-13T23:35:18Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "b0GT0to_9JuB0rfPytBP-Q4rAb0",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "x7Krla_UxRg"
+      },
+      "snippet": {
+        "publishedAt": "2022-01-18T03:00:07Z",
+        "channelId": "UCvC4D8onUfXzvjTOM-dBfEA",
+        "title": "Marvel Studios’ Moon Knight | Official Trailer | Disney+",
+        "description": "Welcome to chaos Watch the new trailer for Marvel Studios' Moon Knight and start streaming the Original series March 30 on ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/x7Krla_UxRg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/x7Krla_UxRg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/x7Krla_UxRg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Marvel Entertainment",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-01-18T03:00:07Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "H5yimKXTuxgwvwXG-F8Ml2Avf1I",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "NLTYw1s4e-8"
+      },
+      "snippet": {
+        "publishedAt": "2022-04-06T14:00:15Z",
+        "channelId": "UCvC4D8onUfXzvjTOM-dBfEA",
+        "title": "Marvel Studios&#39; Doctor Strange in the Multiverse of Madness | Dream",
+        "description": "The Madness begins Tickets are now on sale for Marvel Studios' #DoctorStrange in the Multiverse of Madness. Experience it ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/NLTYw1s4e-8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/NLTYw1s4e-8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/NLTYw1s4e-8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Marvel Entertainment",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-04-06T14:00:15Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "SIC0Dc02muui4_Zj3tEEVEnSPrs",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "rog9HY_uGeo"
+      },
+      "snippet": {
+        "publishedAt": "2022-04-18T16:57:57Z",
+        "channelId": "UCdtXPiqI2cLorKaPrfpKc4g",
+        "title": "Thor: Love and Thunder | Official Trailer",
+        "description": "The God of Thunder is back! Get a first look at Marvel Studios' 'Thor: Love and Thunder,' featuring the returns of Chris Hemsworth, ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/rog9HY_uGeo/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/rog9HY_uGeo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/rog9HY_uGeo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Entertainment Tonight",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-04-18T16:57:57Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "rVvAaljviSzHj1D_Wy4YDNBhKao",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "cfVY9wLKltA"
+      },
+      "snippet": {
+        "publishedAt": "2019-02-16T14:31:37Z",
+        "channelId": "UClVbhSLxwws-KSsPKz135bw",
+        "title": "Team Iron Man vs Team Cap - Airport Battle Scene - Captain America: Civil War - Movie CLIP HD",
+        "description": "Airport Battle Scene - Team Cap (Hawkeye, Falcon, Bucky Barnes, Ant-Man, Scarlet Witch) vs Team Iron Man (War Machine, ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/cfVY9wLKltA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/cfVY9wLKltA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/cfVY9wLKltA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "TopMovieClips",
+        "liveBroadcastContent": "none",
+        "publishTime": "2019-02-16T14:31:37Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Aromb-IxICarho6LsEscxg7SFjI",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "n7X9LYMXzBo"
+      },
+      "snippet": {
+        "publishedAt": "2022-03-15T16:44:06Z",
+        "channelId": "UCfj271v-4sRDLORnbwvQP9A",
+        "title": "ตัวอย่างแรก | Marvel Studios’ Ms. Marvel | Disney+ Hotstar Thailand",
+        "description": "อนาคตอยู่ในมือเธอ Ms. Marvel ซีรีส์ออริจินัลเรื่องใหม่ล่าสุดจากมาร์เวล สตูดิโอส์ เริ่มสตรีม 8 มิถุนายน เฉพาะบน #DisneyPlusHotstarTH ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/n7X9LYMXzBo/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/n7X9LYMXzBo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/n7X9LYMXzBo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "DisneyPlus Hotstar Thailand",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-03-15T16:44:06Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "upau6CWbxHDkUkwJi-pv8D2ynE0",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "wx3EwVwCcdc"
+      },
+      "snippet": {
+        "publishedAt": "2022-02-14T00:06:39Z",
+        "channelId": "UCucnTqfKBRmuKqAzP4HHuSw",
+        "title": "Marvel Studios’ Doctor Strange in the Multiverse of Madness | Official Trailer",
+        "description": "Masuki dimensi baru Strange. Tonton official trailer dari Marvel Studios' #DoctorStrangeID in the Multiverse of Madness. Hanya di ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/wx3EwVwCcdc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/wx3EwVwCcdc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/wx3EwVwCcdc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Marvel Indonesia",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-02-14T00:06:39Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "6mE5X-GA03uUDugWvlmkzRfxkR0",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "Gq5gLlb-298"
+      },
+      "snippet": {
+        "publishedAt": "2022-04-11T19:00:05Z",
+        "channelId": "UCvC4D8onUfXzvjTOM-dBfEA",
+        "title": "Marvel Studios&#39; Doctor Strange in the Multiverse of Madness | Enter the Multiverse",
+        "description": "Unlock the Multiverse. Watch the brand new featurette for Marvel Studios' Doctor Strange in the Multiverse of Madness.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Gq5gLlb-298/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Gq5gLlb-298/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Gq5gLlb-298/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Marvel Entertainment",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-04-11T19:00:05Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "D0_Hmfnjbl1disXv0iMG9-4KJg8",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "zpz1Ncgx1KQ"
+      },
+      "snippet": {
+        "publishedAt": "2022-04-20T16:00:36Z",
+        "channelId": "UCvC4D8onUfXzvjTOM-dBfEA",
+        "title": "Marvel Studios&#39; Doctor Strange in the Multiverse of Madness | Experience",
+        "description": "Enter a world of Strange. Get ready to experience the Multiverse in Marvel Studios' Doctor Strange in the Multiverse of Madness ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/zpz1Ncgx1KQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/zpz1Ncgx1KQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/zpz1Ncgx1KQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Marvel Entertainment",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-04-20T16:00:36Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "SqeQMNV5EtpjLSeL1StOVEUXvvg",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "frhdbxnxccE"
+      },
+      "snippet": {
+        "publishedAt": "2022-04-18T14:51:51Z",
+        "channelId": "UCWJ5MfdQZ6jXbF5gYuSAf5Q",
+        "title": "Marvel Studios&#39; Thor: Love and Thunder - Official Trailer (2022) Chris Hemsworth, Natalie Portman",
+        "description": "Check out the teaser trailer for Marvel Studios' Thor: Love and Thunder, starring Chris Hemsworth, Christian Bale, Tessa ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/frhdbxnxccE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/frhdbxnxccE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/frhdbxnxccE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "IGN Movie Trailers",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-04-18T14:51:51Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "qpCOi3xFZiAFylgRi2pAL7UNI_o",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "vfP-rsKVNKs"
+      },
+      "snippet": {
+        "publishedAt": "2022-04-13T14:00:24Z",
+        "channelId": "UCvC4D8onUfXzvjTOM-dBfEA",
+        "title": "Marvel Studios&#39; Doctor Strange in the Multiverse of Madness | Reckoning",
+        "description": "Stephen Strange, your reckoning is long overdue.” Experience Marvel Studios' Doctor Strange in the Multiverse of Madness only ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/vfP-rsKVNKs/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/vfP-rsKVNKs/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/vfP-rsKVNKs/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Marvel Entertainment",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-04-13T14:00:24Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "-I0zAD5nJlP0N9bwkSC8hGObm04",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "hF4FWq6dUYA"
+      },
+      "snippet": {
+        "publishedAt": "2022-03-15T14:52:31Z",
+        "channelId": "UClssoj08grgttJtZhsbuGRw",
+        "title": "Disney+ | Ms. Marvel - Disponibile in Esclusiva dall&#39;8 Giugno",
+        "description": "Il futuro è nelle sue mani. Ms. Marvel, una Serie Originale dei Marvel Studios, sarà disponibile dall'8 Giugno in esclusiva su ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/hF4FWq6dUYA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/hF4FWq6dUYA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/hF4FWq6dUYA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Marvel Italy",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-03-15T14:52:31Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "DF7dozA3y35QdUeWBhlkWYnG6DI",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "X23XCFgdh2M"
+      },
+      "snippet": {
+        "publishedAt": "2022-02-13T23:30:36Z",
+        "channelId": "UCItRs-h8YU1wRRfP637614w",
+        "title": "Doutor Estranho no Multiverso da Loucura | Marvel Studios | Trailer Oficial Dublado",
+        "description": "Entre em uma nova dimensão. Assista ao novo trailer de #DoutorEstranho no Multiverso da Loucura da Marvel Studios. Em 5 de ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/X23XCFgdh2M/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/X23XCFgdh2M/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/X23XCFgdh2M/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Marvel Brasil",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-02-13T23:30:36Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "KFexpjthpxANXaG0gTDWi_-7C_8",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "ZYzbalQ6Lg8"
+      },
+      "snippet": {
+        "publishedAt": "2021-11-17T01:30:03Z",
+        "channelId": "UCvC4D8onUfXzvjTOM-dBfEA",
+        "title": "SPIDER-MAN: NO WAY HOME - Official Trailer",
+        "description": "We started getting visitors… from every universe. Watch the official trailer for #SpiderManNoWayHome, exclusively in movie ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/ZYzbalQ6Lg8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/ZYzbalQ6Lg8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/ZYzbalQ6Lg8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Marvel Entertainment",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-11-17T01:30:03Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "hMk0GT5KOIisFvBGLJWSP1UMMAc",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "8576dZqquxI"
+      },
+      "snippet": {
+        "publishedAt": "2022-02-08T21:06:21Z",
+        "channelId": "UClG1AcuVOU5Cn-ivHm3JRoA",
+        "title": "Every Marvel Project Coming 2022-2025 Confirmed &amp; Rumored",
+        "description": "Every Marvel Project Coming 2022-2025 Confirmed & Rumored! Marvel Studios has a ton of projects coming including ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/8576dZqquxI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/8576dZqquxI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/8576dZqquxI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "The Cosmic Wonder",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-02-08T21:06:21Z"
+      }
+    }
+  ]
+}

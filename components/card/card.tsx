@@ -9,7 +9,7 @@ interface Props {
   imgUrl?: string,
   size?: string,
   shouldScale?: boolean,
-  id: string | number
+  id: string | undefined | number,
 }
 
 const Card: React.FC<Props> = ({
@@ -19,8 +19,6 @@ const Card: React.FC<Props> = ({
   shouldScale = true
 }: Props) => {
   const [imgSrc, setImgSrc] = useState<string>(imgUrl);
-  console.log("this is size",size)
-  console.log("this is imgUrl", imgSrc)
 
   const classMap: any = {
    "large": styles.lgItem,

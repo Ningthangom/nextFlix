@@ -6,7 +6,7 @@ import clsx from "classnames";
 
 interface Props {
   title: string;
-  videos: { id: string, imgUrl: string }[],
+  videos: { id: string | undefined, imgUrl: string, }[],
   size: string;
   shouldWrap?: boolean;
   shouldScale?: boolean;
@@ -15,12 +15,12 @@ interface Props {
 
 const SectionCards = ({
   title,
-  videos,
+  videos = [],
   size= "medium",
   shouldWrap = false,
   shouldScale,
 }: Props) => {
-    console.log(videos);
+  /*  console.log(videos) */
   return (
     <section className={styles.container}>
       <h2 className={styles.title}>{title}</h2>
@@ -31,7 +31,7 @@ const SectionCards = ({
               <a>
                 <Card
                   key="what"
-                  id="whatever"
+                  id={video.id}
                   imgUrl={video.imgUrl}
                   shouldScale={true}
                   size={size}

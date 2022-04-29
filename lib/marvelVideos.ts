@@ -1,8 +1,8 @@
 
-import videoData from '../data/videos.json';
+import videoData from "../data/marvel.json";
 
-export const getVideos =  (searchQuery) => {
- 
+export const MarvelVideos = () => {
+/*  */
   return videoData.items.map((item) => {
     return {
       title: item.snippet.title,
@@ -10,4 +10,4 @@ export const getVideos =  (searchQuery) => {
       id: item?.id?.videoId,
     };
   });
-}
+};

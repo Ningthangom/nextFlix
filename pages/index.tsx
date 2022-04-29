@@ -1,27 +1,42 @@
-import type { NextPage } from 'next'
-import Head from 'next/head'
-import Banner from '../components/banner/banner'
-import Card from '../components/card/card'
-import SectionCards from '../components/card/sectionCard'
-import Navbar from '../components/Nav/navbar'
-import styles from '../styles/Home.module.css';
+import type { NextPage } from "next";
+import Head from "next/head";
+import Banner from "../components/banner/banner";
+import Card from "../components/card/card";
+import SectionCards from "../components/card/sectionCard";
+import Navbar from "../components/Nav/navbar";
+import styles from "../styles/Home.module.css";
 
-import {getVideos} from '../lib/videos';
+import { getVideos } from "../lib/videos";
+import { MarvelVideos } from "../lib/marvelVideos";
 
+/* 
+export async function getServerSideProps() {
+  const disneyVideos = await getVideos();
+  const marvelVideos = await MarvelVideos();
 
+  return {
+    props: { disneyVideos, marvelVideos },
+  };
+} */
 
-export async function getServerSideProps () {
-const disneyVideos = getVideos(); 
-
-  return { props: { disneyVideos } };
+interface Props {
+  disneyVideos: { id: string; imgUrl: string }[];
+  popularVideos: { id: string; imgUrl: string }[];
+  travelVideos: { id: string; imgUrl: string }[];
+  productivityVideos: { id: string; imgUrl: string }[];
+  marvelVideos: { id: string; imgUrl: string }[];
 }
 
-interface Props{ 
-  disneyVideos: {id: string, imgUrl: string} []
-}
-
-const Home: NextPage<Props> = ({disneyVideos}: Props) => {
-  
+const Home: NextPage<Props> = ({
+  disneyVideos,
+  productivityVideos,
+  popularVideos,
+  travelVideos,
+  marvelVideos,
+}: Props) => {
+  const Videos = getVideos();
+    const marvels = MarvelVideos();
+  console.log("local env: ", Videos);
   return (
     <div className={styles.container}>
       <Head>
@@ -35,12 +50,12 @@ const Home: NextPage<Props> = ({disneyVideos}: Props) => {
         subtitle=" very cute dragons"
         imgUrl="/static/bannerImage.webp"
       />
-
-      <SectionCards title="Disney" videos={disneyVideos} size="large" />
-      <SectionCards title="Ocean" videos={disneyVideos} size="medium" />
-      <SectionCards title="Ocean" videos={disneyVideos} size="small" />
+      <SectionCards title="Productivity" videos={marvels} size="small" />
+      <SectionCards title="Popular" videos={Videos} size="large" />
+      <SectionCards title="Disney" videos={marvels} size="medium" />
+      <SectionCards title="Travel" videos={Videos} size="medium" />
     </div>
   );
-}
+};
 
-export default Home
+export default Home;
