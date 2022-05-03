@@ -47,6 +47,19 @@ const Navbar: React.FC<Props> = () => {
         
     }
 
+    const handleSignOut = async (e: React.SyntheticEvent<EventTarget>) => {
+      e.preventDefault();
+      try {
+        await magic.user.logout();
+        console.log(await magic.user.isLoggedIn()); // => `false`
+         router.push("/login");
+      } catch(error) {
+        // Handle errors if required!
+         console.log("Error loggin out:", error);
+         router.push("/login");
+      }
+    };
+
   return (
     <div className={styles.container}>
       <div className={styles.wrapper}>
@@ -85,9 +98,11 @@ const Navbar: React.FC<Props> = () => {
             {showDropdown && (
               <div className={styles.navDropdown}>
                 <div>
-                  <Link href="/login">
-                    <a className={styles.linkName}>Sign Out</a>
-                  </Link>
+                  <div>
+                    <a className={styles.linkName} onClick={handleSignOut}>
+                      Sign Out
+                    </a>
+                  </div>
                 </div>
 
                 <div className={styles.lineWrapper}> </div>
