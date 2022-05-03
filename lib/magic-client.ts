@@ -5,5 +5,5 @@ import { Magic } from "magic-sdk";
      new Magic(<string>process.env.NEXT_PUBLIC_MAGIC_API_KEY) // ✨
    );
  }; 
- export const magic = createMagic();
+ export const magic:any = createMagic();
 console.log("magic set up", magic);

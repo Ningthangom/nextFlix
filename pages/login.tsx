@@ -3,11 +3,13 @@ import Image from "next/image";
 import {useRouter} from "next/router";
 import styles from '../styles/Login.module.css';
 import {useState} from 'react';
+import { magic } from "../lib/magic-client";
 
 
 const Login = () => {
   const [emailNotEntered, setemailNotEntered] = useState<boolean>(false);
   const [email, setEmail] = useState<string>("");
+  const [isLoading, setIsLoading] = useState<boolean>(false);
 
   const router = useRouter();
 
@@ -19,16 +21,31 @@ const Login = () => {
     setEmail(emailInput);
   };
 
-  const handleLoginEmail = (e: React.MouseEvent<HTMLElement>) => {
+  const handleLoginEmail = async (e: React.MouseEvent<HTMLElement>) => {
     e.preventDefault();
+  
     if (email) {
       setemailNotEntered(false);
-      if (email === "ningthangom@gmail.com") {
-        // take it to dash board
-        router.push("/");
-      } else {
-        console.log("something went wrong");
-      }
+            if (email === "ningthangom@gmail.com") {
+              // take it to dash board
+              // log in a user by their email
+                  try {
+                  setIsLoading(true);
+                  const DIDToken = await magic.auth.loginWithMagicLink({
+                    email: email,
+                  });
+                  console.log(" this is DIDToken: ", DIDToken);
+                  if(DIDToken){
+                    setIsLoading(false)
+                      router.push("/");
+                  }
+                  } catch {
+                    // Handle errors if required!
+                  }
+                 
+            } else {
+              console.log("something went wrong");
+            }
     } else {
       // ask for email
       setemailNotEntered(true);
@@ -66,14 +83,15 @@ const Login = () => {
           {emailNotEntered ? (
             <p className={styles.userMsg}>please enter your email</p>
           ) : null}
+
           <button onClick={handleLoginEmail} className={styles.loginBtn}>
             {" "}
-            sign in{" "}
+            {isLoading ? <p>Loading.......</p> : <p>sign in </p>}
           </button>
         </div>
       </main>
     </div>
   );
-};;
+}
 
-export default Login;
+export default Login
