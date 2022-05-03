@@ -2,16 +2,33 @@ import Head from "next/head";
 import Image from "next/image";
 import {useRouter} from "next/router";
 import styles from '../styles/Login.module.css';
-import {useState} from 'react';
+import {useState, useEffect} from 'react';
 import { magic } from "../lib/magic-client";
 
 
 const Login = () => {
   const [emailNotEntered, setemailNotEntered] = useState<boolean>(false);
-  const [email, setEmail] = useState<string>("");
+  const [email, setEmail] = useState<string>("ningthangom@gmail.com");
   const [isLoading, setIsLoading] = useState<boolean>(false);
 
   const router = useRouter();
+
+  useEffect(() => {
+
+    // this will make sure that "sign in" is not re-rendered after 
+    // geting didtoken
+    const handleComplete = () => {
+      setIsLoading(false);
+    }
+
+    router.events.on('routeChangeComplete', handleComplete);
+    router.events.on("routeChangeError", handleComplete);
+
+    return () => {
+       router.events.off("routeChangeComplete", handleComplete);
+        router.events.off("routeChangeError", handleComplete);
+    }
+  },[router])
 
 
 
@@ -36,8 +53,9 @@ const Login = () => {
                   });
                   console.log(" this is DIDToken: ", DIDToken);
                   if(DIDToken){
-                    setIsLoading(false)
+                  
                       router.push("/");
+                    
                   }
                   } catch {
                     // Handle errors if required!
@@ -77,8 +95,10 @@ const Login = () => {
             type="text"
             placeholder="email address"
             className={styles.emailInput}
+            value={email}
             required
             onChange={handleOnChangeEmail}
+            
           />
           {emailNotEntered ? (
             <p className={styles.userMsg}>please enter your email</p>
