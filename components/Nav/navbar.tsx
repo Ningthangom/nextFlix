@@ -1,15 +1,33 @@
-import React, {useState} from 'react'
+import React, {useState, useEffect} from 'react'
 import styles from './navbar.module.css';
 import Link from "next/link";
 import {useRouter} from 'next/router';
 import Image from 'next/image'
+import {magic } from '../../lib/magic-client'
 
 interface Props{ 
     username: string;
 }
 
-const Navbar: React.FC<Props> = ({username}: Props) => {
+const Navbar: React.FC<Props> = () => {
 
+ const [username, setUsername] = useState<string>("")
+
+   useEffect(() => {
+     async function getUsername() {
+       try {
+         const { email } = await magic.user.getMetadata();
+         if (email) {
+           const name = email.split('@')[0];
+           console.log(email);
+           setUsername(name);
+         }
+       } catch (error) {
+         console.log("Error retrieving email:", error);
+       }
+     }
+     getUsername();
+   }, []);
     const router = useRouter();
     const [showDropdown, setShowdropdown] = useState<boolean>(false);
 
