@@ -1,21 +1,26 @@
 import React from 'react';
 import styles from "./banner.module.css";
 import Image from 'next/image'
+import { useRouter } from "next/router";
 
 interface Props{
   title: string;
   subtitle: string;
   imgUrl: string;
+  videoId: string;
 }
 
 const Banner: React.FC<Props> = ({
   title,
   subtitle,
   imgUrl,
+  videoId
 }: Props) => {
 
+  const router = useRouter();
    const handlePlay = () => {
      console.log("handle On Play")
+     router.push(`/video/${videoId}`);
    }
   return (
     <div className={styles.container}>

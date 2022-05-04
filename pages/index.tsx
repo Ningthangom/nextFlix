@@ -6,7 +6,7 @@ import SectionCards from "../components/card/sectionCard";
 import Navbar from "../components/Nav/navbar";
 import styles from "../styles/Home.module.css";
 
-import { getVideos } from "../lib/videos";
+import { getVideos, bannerVideo } from "../lib/videos";
 import { MarvelVideos } from "../lib/marvelVideos";
 
 
@@ -37,6 +37,8 @@ const Home: NextPage<Props> = ({
 }: Props) => {
   const Videos = getVideos();
     const marvels = MarvelVideos();
+    const bannerVideos = bannerVideo();
+    console.log("baner video : ", bannerVideos[0].id)
 
   return (
     <div className={styles.container}>
@@ -50,7 +52,8 @@ const Home: NextPage<Props> = ({
         title="How to train your dragon"
         subtitle=" very cute dragons"
         imgUrl="/static/bannerImage.webp"
-      />
+        videoId={bannerVideos[0].id}
+        />
       <SectionCards title="Productivity" videos={marvels} size="small" />
       <SectionCards title="Popular" videos={Videos} size="large" />
       <SectionCards title="Disney" videos={marvels} size="medium" />
