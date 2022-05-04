@@ -18,7 +18,6 @@ function MyApp({ Component, pageProps }: AppProps) {
         router.push("/")
       }else{
         // route to "/login"
-         
         router.push("/login")
       }
     }
