@@ -12,13 +12,14 @@ const  Video = () => {
     console.log({router})
 
   return (
-    <div>
+    <div className={styles.container}>
       {" "}
       <Modal
         isOpen={true}
         contentLabel="watch the video"
         onRequestClose={() => router.back()}
         overlayClassName={styles.overlay}
+        className={styles.modal}
       >
         <div>I am a modal {router.query.video}</div>
       </Modal>
